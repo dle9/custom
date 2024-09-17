@@ -154,7 +154,8 @@ alias showmenu='xfce4-terminal --show-menubar'
 alias hidemenu='xfce4-terminal --hide-menubar'
 alias xbps='xbps-install'
 alias ff='firefox >/dev/null 2>&1 &'
-
+alias studio='studio.sh >/dev/null 2>&1 &'
+alias vbox='VirtualBox >/dev/null 2>&1 &'
 alias sshdle='ssh -i ~/undone-key.pem ubuntu@3.130.20.170'
 
 export GOROOT=~/tools/programming/go/go
