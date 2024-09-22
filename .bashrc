@@ -156,11 +156,12 @@ alias xbps='xbps-install'
 alias ff='firefox >/dev/null 2>&1 &'
 alias studio='studio.sh >/dev/null 2>&1 &'
 alias vbox='VirtualBox >/dev/null 2>&1 &'
+alias ghidra='ghidraRun >/dev/null 2>&1 &'
 alias sshdle='ssh -i ~/undone-key.pem ubuntu@3.130.20.170'
 
 export GOROOT=~/tools/programming/go/go
 export GOPATH=~/tools/programming/go
-export PATH=$PATH:/c/Users/deric/.cargo/bin:/mingw64/bin:/c/Users/deric/AppData/Local/Programs/Microsoft\ VS\ Code/bin:/c/Lab/globals:$GOROOT/bin:$GOPATH/bin:$HOME/tools/neovim/bin:$HOME/.pyenv/bin:$HOME/Software/vscode/share/code/bin:$HOME/Software/android-studio/bin/
+export PATH=$PATH:/c/Users/deric/.cargo/bin:/mingw64/bin:/c/Users/deric/AppData/Local/Programs/Microsoft\ VS\ Code/bin:/c/Lab/globals:$GOROOT/bin:$GOPATH/bin:$HOME/tools/neovim/bin:$HOME/.pyenv/bin:$HOME/Software/vscode/share/code/bin:$HOME/Software/android-studio/bin/:$HOME/Software/ghidra_11.1.2_PUBLIC/
 
 
 export NVM_DIR="$HOME/.nvm"
